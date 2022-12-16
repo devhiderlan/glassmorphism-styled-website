@@ -41,3 +41,142 @@ html::-webkit-scrollbar-thumb {
    background: var(--white);
    border-radius: 5rem;
 }
+
+.gradient-background {
+   height: 100vh;
+   width: 100%;
+   background: var(--gradient);
+   position: fixed;
+   top: 0; left: 0;
+   z-index: -1;
+   overflow: hidden;
+}
+
+.header {
+   position: fixed;
+   top: 1.5rem; left: 50%;
+   transform: translateX(-50%);
+   z-index: 1000;
+   width: 95%;
+   background: var(--background);
+   border: var(--border);
+   border-top: var(--border-top);
+   border-left: var(--border-left);
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   box-shadow: var(--box-shadow);
+   padding: 2rem;
+   border-radius: .5rem;
+}
+
+.header .logo {
+   font-size: 2.5rem;
+   font-weight: bolder;
+   color: var(--white);
+   text-transform: uppercase;
+}
+
+.header .logo i {
+   color: var(--black);
+}
+
+.header .navbar a {
+   font-size: 1.7rem;
+   margin-left: 2rem;
+   color: var(--white);
+}
+
+.header .navbar a:hover {
+   color: var(--black);
+}
+
+#menu-btn {
+   font-size: 3rem;
+   cursor: pointer;
+   color: var(--white);
+   display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Media queries */
+
+@media (max-width:991px) {
+   html {
+      font-size: 55%;
+   }
+}
+
+@media (max-width:768px) {
+   #menu-btn {
+      display: initial;
+      transition: .2s linear;
+   }
+
+   #menu-btn.fa-times {
+      transform: rotate(180deg);
+   }
+
+   .header .navbar {
+      position: absolute;
+      top: 115%; left: 0; right: 0;
+      background: var(--gradient);
+      border-radius: .5rem;
+      transition: .3s linear;
+      box-shadow: var(--box-shadow);
+      padding: .5rem 1.5rem;
+      clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+   }
+
+   .header .navbar.active {
+      clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+   }
+
+   .header .navbar a {
+      font-size: 2rem;
+      display: block;
+      background: var(--background);
+      margin: 1.2rem 0;
+      padding: 1.5rem;
+      border-radius: .5rem;
+      border: var(--border);
+      border-top: var(--border-top);
+      border-left: var(--border-left);
+      box-shadow: var(--box-shadow);
+   }
+
+
+}
+
+@media (max-width:450px) {
+   html {
+      font-size: 50%;
+   }
+}
