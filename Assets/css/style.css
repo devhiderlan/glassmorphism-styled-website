@@ -42,6 +42,27 @@ html::-webkit-scrollbar-thumb {
    border-radius: 5rem;
 }
 
+section {
+   padding: 2rem 9%;
+}
+
+.btn {
+   margin-top: 1rem;
+   display: inline-block;
+   transition: .2s linear;
+   background: var(--white);
+   color: var(--black);
+   border-radius: .5rem;
+   box-shadow: var(--box-shadow);
+   padding: .8rem 3rem;
+   font-size: 1.7rem;
+   cursor: pointer;
+}
+
+.btn:hover {
+   letter-spacing: .1rem;
+}
+
 .gradient-background {
    height: 100vh;
    width: 100%;
@@ -128,6 +149,38 @@ html::-webkit-scrollbar-thumb {
    display: none;
 }
 
+.home {
+   height: 100vh;
+   padding: 7rem 2rem;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+.home .content {
+   width: 75rem;
+   text-align: center;
+}
+
+.home .content h3 {
+   color: var(--white);
+   text-transform: uppercase;
+   font-size: 4rem;
+   line-height: 1.8;
+   text-shadow: 0 .5rem 1rem rgba(0, 0, 0, 0.1);
+}
+
+.home .content p {
+   font-weight:300;
+   color: var(--white);
+   font-size: 2rem;
+   line-height: 1.8;
+   padding: 1rem 0;
+}
+
+
+
+
 
 
 
@@ -161,6 +214,10 @@ html::-webkit-scrollbar-thumb {
 @media (max-width:991px) {
    html {
       font-size: 55%;
+   }
+
+   section {
+      padding: 2rem;
    }
 }
 
@@ -200,6 +257,14 @@ html::-webkit-scrollbar-thumb {
       border-top: var(--border-top);
       border-left: var(--border-left);
       box-shadow: var(--box-shadow);
+   }
+
+   .home .content h3 {
+      font-size: 3.5rem;
+   }
+
+   .home .content p {
+      font-size: 1.6rem;
    }
 
 
