@@ -46,6 +46,24 @@ section {
    padding: 2rem 9%;
 }
 
+.heading {
+   text-align: center;
+   padding-bottom: 2.5rem;
+}
+
+.heading span {
+   background: var(--background);
+   border-radius: .5rem;
+   border: var(--border);
+   border-top: var(--border-top);
+   border-left: var(--border-left);
+   font-size: 4rem;
+   color: var(--white);
+   padding: .5rem 1.5rem;
+   text-shadow: 0 .5rem 1rem rgba(0, 0, 0, .1);
+   box-shadow:var(--box-shadow);
+}
+
 .btn {
    margin-top: 1rem;
    display: inline-block;
@@ -178,10 +196,61 @@ section {
    padding: 1rem 0;
 }
 
+.courses .box-container {
+   display: grid;
+   grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+   gap: 1.5rem;
+}
 
+.courses .box-container .box {
+   text-align: center;
+   background: var(--background);
+   border-radius: .5rem;
+   border: var(--border);
+   border-top: var(--border-top);
+   border-left: var(--border-left);
+   box-shadow: var(--box-shadow);
+   padding: 2rem;
+   backdrop-filter: 4rem;
+}
 
+.courses .box-container .box img {
+   height: 20rem;
+}
 
+.courses .box-container .box h3 {
+   font-size: 2rem;
+   color: var(--white);
+}
 
+.courses .box-container .box p {
+   font-size: 1.5rem;
+   color: var(--white);
+   line-height: 1.8;
+   padding: 1rem 0;
+}
+
+.courses .box-container .box .icons {
+   border-top: var(--border-top);
+   margin-top: 2rem;
+   padding-top: 1.5rem;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+}
+
+.courses .box-container .box .icons a {
+   font-size: 1.6rem;
+   color: var(--white);
+}
+
+.courses .box-container .box .icons a:hover {
+   color: var(--black);
+}
+
+.courses .box-container .box .icons a i {
+   padding-right: .5rem;
+}
 
 
 
@@ -273,5 +342,9 @@ section {
 @media (max-width:450px) {
    html {
       font-size: 50%;
+   }
+
+   .heading span {
+      font-size: 3rem;
    }
 }
