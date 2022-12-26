@@ -53,32 +53,32 @@ section {
 
 .heading span {
    background: var(--background);
-   border-radius: .5rem;
+   border-radius: 0.5rem;
    border: var(--border);
    border-top: var(--border-top);
    border-left: var(--border-left);
    font-size: 4rem;
    color: var(--white);
-   padding: .5rem 1.5rem;
-   text-shadow: 0 .5rem 1rem rgba(0, 0, 0, .1);
-   box-shadow:var(--box-shadow);
+   padding: 0.5rem 1.5rem;
+   text-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+   box-shadow: var(--box-shadow);
 }
 
 .btn {
    margin-top: 1rem;
    display: inline-block;
-   transition: .2s linear;
+   transition: 0.2s linear;
    background: var(--white);
    color: var(--black);
-   border-radius: .5rem;
+   border-radius: 0.5rem;
    box-shadow: var(--box-shadow);
-   padding: .8rem 3rem;
+   padding: 0.8rem 3rem;
    font-size: 1.7rem;
    cursor: pointer;
 }
 
 .btn:hover {
-   letter-spacing: .1rem;
+   letter-spacing: 0.1rem;
 }
 
 /* Background animated */
@@ -88,14 +88,15 @@ section {
    width: 100%;
    background: var(--gradient);
    position: fixed;
-   top: 0; left: 0;
+   top: 0;
+   left: 0;
    z-index: -1;
    overflow: hidden;
 }
 
 .gradient-background .animated-box {
    position: absolute;
-   background: rgba(255, 255, 255, .2);
+   background: rgba(255, 255, 255, 0.2);
    display: block;
    pointer-events: none;
    border-radius: 1rem;
@@ -126,7 +127,8 @@ section {
 
 .header {
    position: fixed;
-   top: 1.5rem; left: 50%;
+   top: 1.5rem;
+   left: 50%;
    transform: translateX(-50%);
    z-index: 1000;
    width: 95%;
@@ -139,8 +141,8 @@ section {
    justify-content: space-between;
    box-shadow: var(--box-shadow);
    padding: 2rem;
-   border-radius: .5rem;
-   backdrop-filter: blur(.4rem);
+   border-radius: 0.5rem;
+   backdrop-filter: blur(0.4rem);
 }
 
 .header .logo {
@@ -191,11 +193,11 @@ section {
    text-transform: uppercase;
    font-size: 4rem;
    line-height: 1.8;
-   text-shadow: 0 .5rem 1rem rgba(0, 0, 0, 0.1);
+   text-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
 }
 
 .home .content p {
-   font-weight:300;
+   font-weight: 300;
    color: var(--white);
    font-size: 2rem;
    line-height: 1.8;
@@ -213,7 +215,7 @@ section {
 .courses .box-container .box {
    text-align: center;
    background: var(--background);
-   border-radius: .5rem;
+   border-radius: 0.5rem;
    border: var(--border);
    border-top: var(--border-top);
    border-left: var(--border-left);
@@ -257,7 +259,7 @@ section {
 }
 
 .courses .box-container .box .icons a i {
-   padding-right: .5rem;
+   padding-right: 0.5rem;
 }
 
 /* Teachers section */
@@ -271,7 +273,7 @@ section {
 .teachers .box-container .box {
    text-align: center;
    background: var(--background);
-   border-radius: .5rem;
+   border-radius: 0.5rem;
    border: var(--border);
    border-top: var(--border-top);
    border-left: var(--border-left);
@@ -310,11 +312,11 @@ section {
    box-shadow: var(--box-shadow);
    color: var(--white);
    border-radius: 1rem;
-   margin: .5rem;
+   margin: 0.5rem;
 }
 
 .teachers .box-container .box .share a:hover {
-   background:var(--black);
+   background: var(--black);
 }
 
 /* Plan section */
@@ -328,7 +330,7 @@ section {
 .plan .box-container .box {
    text-align: center;
    background: var(--background);
-   border-radius: .5rem;
+   border-radius: 0.5rem;
    border: var(--border);
    border-top: var(--border-top);
    border-left: var(--border-left);
@@ -348,7 +350,7 @@ section {
 }
 
 .plan .box-container .box h3 {
-   background: rgba(255, 255, 255, .4);
+   background: rgba(255, 255, 255, 0.4);
    font-size: 2rem;
    padding: 1rem 0;
    margin: 1rem 0;
@@ -369,18 +371,18 @@ section {
 
 .plan .box-container .box a {
    display: block;
-   background: rgba(255, 255, 255, .4);
+   background: rgba(255, 255, 255, 0.4);
    font-size: 2rem;
    padding: 1rem 0;
    margin: 1rem 0;
    margin-top: 2rem;
    color: var(--black);
-   transition: .2s linear;
+   transition: 0.2s linear;
 }
 
 .plan .box-container .box a:hover {
-   letter-spacing: .1rem;
-} 
+   letter-spacing: 0.1rem;
+}
 
 .plan .box-container .box .price {
    font-size: 6rem;
@@ -405,13 +407,13 @@ section {
 .review .box-container .box {
    text-align: center;
    background: var(--background);
-   border-radius: .5rem;
+   border-radius: 0.5rem;
    border: var(--border);
    border-top: var(--border-top);
    border-left: var(--border-left);
    box-shadow: var(--box-shadow);
    padding: 2rem;
-   backdrop-filter: blur(.4rem);
+   backdrop-filter: blur(0.4rem);
 }
 
 .review .box-container .box .image {
@@ -422,7 +424,7 @@ section {
 
 .review .box-container .box .image i {
    font-size: 5rem;
-   color: rgba(255, 255, 255, .4);
+   color: rgba(255, 255, 255, 0.4);
 }
 
 .review .box-container .box .image img {
@@ -433,7 +435,7 @@ section {
 }
 
 .review .box-container .box h3 {
-   padding-top:.5rem;
+   padding-top: 0.5rem;
    font-size: 2.2rem;
    color: var(--white);
 }
@@ -466,20 +468,20 @@ section {
    margin: 1rem auto;
    text-align: center;
    background: var(--background);
-   border-radius: .5rem;
+   border-radius: 0.5rem;
    border: var(--border);
    border-top: var(--border-top);
    border-left: var(--border-left);
    box-shadow: var(--box-shadow);
    padding: 2rem;
-   backdrop-filter: blur(.4rem);
+   backdrop-filter: blur(0.4rem);
 }
 
 .contact form .box {
    width: 100%;
    background: var(--background);
-   border-radius: .5rem;
-   margin: .7rem 0;
+   border-radius: 0.5rem;
+   margin: 0.7rem 0;
    box-shadow: var(--box-shadow);
    padding: 1rem 1.2rem;
    font-size: 1.5rem;
@@ -500,13 +502,34 @@ section {
 
 /* Footer section */
 
+.footer {
+   text-align: center;
+}
 
+.footer .share {
+   padding: 1rem 0;
+}
 
+.footer .share a {
+   margin: 0 1rem;
+   font-size: 4rem;
+   color: var(--white);
+}
 
+.footer .share a:hover {
+   color: var(--black);
+}
 
+.footer .credit {
+   padding: 1.5rem 0;
+   margin: 1rem 0;
+   font-size: 1.5rem;
+   color: var(--white);
+}
 
-
-
+.footer .credit span {
+   color: black;
+}
 
 
 
@@ -518,7 +541,7 @@ section {
 
 /* Media queries */
 
-@media (max-width:991px) {
+@media (max-width: 991px) {
    html {
       font-size: 55%;
    }
@@ -528,10 +551,10 @@ section {
    }
 }
 
-@media (max-width:768px) {
+@media (max-width: 768px) {
    #menu-btn {
       display: initial;
-      transition: .2s linear;
+      transition: 0.2s linear;
    }
 
    #menu-btn.fa-times {
@@ -540,12 +563,14 @@ section {
 
    .header .navbar {
       position: absolute;
-      top: 115%; left: 0; right: 0;
+      top: 115%;
+      left: 0;
+      right: 0;
       background: var(--gradient);
-      border-radius: .5rem;
-      transition: .3s linear;
+      border-radius: 0.5rem;
+      transition: 0.3s linear;
       box-shadow: var(--box-shadow);
-      padding: .5rem 1.5rem;
+      padding: 0.5rem 1.5rem;
       clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
    }
 
@@ -559,7 +584,7 @@ section {
       background: var(--background);
       margin: 1.2rem 0;
       padding: 1.5rem;
-      border-radius: .5rem;
+      border-radius: 0.5rem;
       border: var(--border);
       border-top: var(--border-top);
       border-left: var(--border-left);
@@ -573,11 +598,9 @@ section {
    .home .content p {
       font-size: 1.6rem;
    }
-
-
 }
 
-@media (max-width:450px) {
+@media (max-width: 450px) {
    html {
       font-size: 50%;
    }
