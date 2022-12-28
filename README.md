@@ -1,4 +1,5 @@
-# glassmorphism-styled-website
+# Glassmorphism Styled Website
+
 ## Visão Geral
 
 ### Projeto de um componente interativo para avaliação de qualidade de serviço/atendimento prestado.
