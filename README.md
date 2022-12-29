@@ -5,7 +5,7 @@
 ### Projeto de um componente interativo para avaliação de qualidade de serviço/atendimento prestado.
 #
 
-![](./Assets/design/desktop-preview.jpg)
+![]()
 
 #
 ## Construido com:
